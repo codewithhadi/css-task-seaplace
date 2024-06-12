@@ -1,0 +1,389 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navbar {
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    border: 1px solid rgb(206, 205, 205);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.span {
+    margin-right: 3px;
+}
+
+.p {
+    display: flex;
+    color: rgb(131, 130, 130);
+}
+
+.p1 {
+    margin-right: 20px;
+}
+
+#span {
+    color: black;
+    font-weight: 500;
+}
+
+#spn {
+    color: black;
+    font-weight: 500;
+}
+
+@media(max-width:767px) {
+    .p {
+        display: none;
+    }
+}
+
+.nav {
+    background-color: #fff;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    padding-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #cca772;
+    transition: 0.5s;
+}
+
+.icon1 {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.banner {
+    width: 100%;
+    height: 92vh;
+    background-image: url(images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#h3 {
+    color: #fff;
+}
+
+#h1 {
+    color: #fff;
+    font-size: 60px;
+}
+
+.button {
+    margin-top: 30px;
+    height: 40px;
+    width: 150px;
+    background-color: transparent;
+    border-color: none;
+    border: none;
+    background-color: #fff;
+    color: #000000;
+    box-shadow: none;
+    inset: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #cca772;
+    color: white;
+    transition: 0.5s;
+}
+
+@media(max-width:505px) {
+    .ul {
+        display: none;
+    }
+}
+.about{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.headings{
+    margin-top: 50px;
+}
+#h{
+    font-size: 30px;
+}
+.para1{
+    margin-top: 20px;
+}
+.btn{
+    margin-top: 40px;
+    min-height: 40px;
+    min-width: 150px;
+    border: none;
+    cursor: pointer;
+    color: black;
+    background-color: #cca772;
+}
+.btn:hover{
+    color: #fff;
+    background-color: black;
+    transition: 0.5s;
+}
+@media(max-width:1155px){
+    .about{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .btn{
+        margin-bottom: 50px;
+    }
+}
+.properties{
+    margin-top: 50px;
+}
+.h8{
+    font-size: 30px;
+}
+.po-head{
+    text-align: center;
+}
+.popup1{
+    height: 550px;
+    width: 350px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgb(131, 130, 130);
+}
+.popup2{
+    height: 550px;
+    width: 350px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgb(131, 130, 130);
+}
+.popup3{
+    height: 550px;
+    width: 350px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgb(131, 130, 130);
+}
+.imh{
+    width: 350px;
+}
+.popup{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.heading{
+    text-align: center;
+}
+.po-head{
+    display: flex;
+    justify-content: center;
+}
+.Per{
+margin-right: 10px;
+margin-top: 10px;
+}
+#h4{
+    font-size: 30px;
+}
+.paragraph{
+    color: rgb(131, 130, 130);
+    margin-top: 10px;
+    text-align: center;
+}
+.h{
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.h:hover{
+    color: #cca772;
+}
+.popo{
+    text-align: center;
+}
+.butt{
+    min-height: 30px;
+    width: 100px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.butt:hover{
+    color: #cca772;
+    transition: 0.5s;
+}
+@media(max-width:1080px){
+    .popup{
+        flex-direction: column;
+    }
+    .popup1{
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .popup2{
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .popup3{
+        margin: 0 auto;
+    }
+}
+.contact{
+    margin-top: 50px;
+}
+.hh{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.image{
+    min-width: 600px;
+    min-height: 400px;
+}
+.inp{
+    margin-top: 50px;
+}
+.in1{
+    min-width: 500px;
+    min-height: 30px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+.sec-3{
+    text-align: center;
+}
+textarea{
+    min-height: 110px;
+    min-width: 500px;
+    margin-top: 50px;
+    margin-left: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.inputes{
+    display: flex;
+    justify-content: center;
+}
+.buts{
+    text-align: center;
+}
+.but{
+    margin-top: 20px;
+    width: 60%;
+    min-height: 40px;
+    border: none;
+    background-color: #cca772;
+    color: #000000;
+    cursor: pointer;
+}
+@media(max-width:1103px){
+    .image{
+        display: none;
+    }
+}
+@media(max-width:1072px){
+    .inputes{
+        flex-direction: column;
+        text-align: center;
+    }
+    textarea{
+        margin-left: 0px;
+        min-width: 60%;
+    }
+    .in1{
+        min-width: 60%;
+    }
+}
+.but:hover{
+    background-color: #000000;
+    color: white;
+    transition: 0.5s;
+}
+.head1{
+    margin-top: 50px;
+}
+.head2{
+    margin-top: 50px;
+}
+.head3{
+    margin-top: 50px;
+}
+.head4{
+    margin-top: 50px;
+}
+footer{
+    margin-top: 50px;
+    min-height: 450px;
+    width: 100%;
+    background-color: rgb(2, 18, 47);
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.hy{
+    margin-left: 0px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+.re{
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+}
+.input{
+    width: 200px;
+    height: 30px;
+    padding-left: 20px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+}
+.input::placeholder{
+    color: #fff;
+}
+#i{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.kl{
+    text-align: center;
+}
+@media(max-width:835px){
+    footer{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+.hrs{
+    background-color: rgb(2, 18, 47);
+}
+.kl{
+    color: white;
+}
